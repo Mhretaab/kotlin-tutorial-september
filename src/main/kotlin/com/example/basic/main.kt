@@ -20,4 +20,10 @@ fun main(args: Array<String>) {
     println("round(2.238) ~ ${round(2.238)}")
     println("ceil(2.238) ~ ${ceil(2.238)}")
     println("floor(2.238) ~ ${floor(2.238)}")
+
+    //++ or -- operators
+    var number = 10;
+    println(++number)
+    println(number--)
+    println(number)
 }
